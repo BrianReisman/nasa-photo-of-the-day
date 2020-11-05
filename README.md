@@ -1,16 +1,16 @@
 # Module Project: Component Side Effects- NASA APOD
 
-This will be a two-module project. In it you will consume the NASA API to fetch the "Astronomy Photo Of The Day" or APOD. Once you fetch the data, you will build a few components that will render different pieces of data in your interface. After the second module (in the [DAY_TWO_README.md](DAY_TWO_README.md) file) you will re-style your app using one of the libraries you learn. 
+<!-- This will be a two-module project. In it you will consume the NASA API to fetch the "Astronomy Photo Of The Day" or APOD. Once you fetch the data, you will build a few components that will render different pieces of data in your interface. After the second module (in the [DAY_TWO_README.md](DAY_TWO_README.md) file) you will re-style your app using one of the libraries you learn. 
 
 ## Instructions
 
 ---
 
-Read these instructions carefully. Understand exactly what is expected before starting this project.
+Read these instructions carefully. Understand exactly what is expected before starting this project. -->
 
-## Commits
+<!-- ## Commits
 
-Commit your code regularly and meaningfully. This helps both you and your team lead in case you ever need to return to old code for any number of reasons.
+Commit your code regularly and meaningfully. This helps both you and your team lead in case you ever need to return to old code for any number of reasons. -->
 
 ## Introduction
 
@@ -31,10 +31,10 @@ This project was put together using create-react-app (CRA). You will not need to
 - [x] Add your team lead as collaborator on Github.
 - [x] Clone your OWN version of the repository in your terminal
 - [x] Download project dependencies by running `npm install`
-- [] Start up the app using `npm start`
-- [] Create a new branch: git checkout -b `<firstName-lastName>`.
-  [] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [] Push commits: git push origin `<firstName-lastName>`.
+- [x] Start up the app using `npm start`
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+  [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 
 ### Task 2: MVP
