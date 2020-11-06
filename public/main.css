@@ -10,6 +10,8 @@ div{
 
 .imgClass{
   padding: 2% 5%;
+  width: 85%;
+  max-width: 850px;
 }
 
 .textClass{
@@ -17,6 +19,7 @@ div{
   justify-content: center;
 }
 p{
+  max-width: 950px;
   width: 70%;
 }
 .dateClass{

@@ -1,41 +1,38 @@
 import React, { useState , useEffect } from "react"; //TODO: use state
 import "./App.css";
-import axios from 'axios';
+// import axios from 'axios';
 import Text from './components/text';
 import Image from './components/image';
 import Date from './components/date';
+import Header from './components/header'
 import DummyData from './rawData' //* //TODO my raw data
 
+
+
 function App() { //TODO: hard coded data, wire to API
-  const [ photoData, setPhotoData ] = useState(DummyData); //*I chose null because thinking of this as a place holder for an expected object which the API returns
+  const [ photoData, setPhotoData ] = useState(DummyData); //*something WILL be here. use '' with axios
   console.log(photoData);
 
 
-
-// // const fetchData = 
 // useEffect( ()=>{
-    // axios
-    //   .get('https://api.nasa.gov/planetary/apod?api_key=baT0k6fiHRVp5ptXYAGEpZxNZRnAfr8Z1WfYgsIT')
-    //   .then(yay => {
-    //     console.log('yay!', yay);
-    //     setPhotoData(yay.data);
-    //   })
-    //   .catch(drama => {
-    //     console.log('oh NOOOOO!', drama)
-    //     debugger;
-    //   })
-  // }, []);
+//     axios
+//       .get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
+//       .then(res => {
+//         console.log('res!', res.data);
+//         setPhotoData(res.data);
+//       })
+//       .catch(drama => {
+//         console.log('oh NOOOOO!', drama)
+//       })
+//   }, []);
   
 
   return (
     <div className="App">
+      <Header/>
       <Image url={photoData.url}/>
       <Date date={photoData.date}/>
       <Text explanation={photoData.explanation}/>
-      {/* <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p> */}
     </div>
   );
 }

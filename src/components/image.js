@@ -6,7 +6,7 @@ import React from 'react';
 const Image = (props) => {
   const { url } = props 
   //unpack props
-console.log(url);
+// console.log(url);
 
   //must return something. Usually JSX
   return (

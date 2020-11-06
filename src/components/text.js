@@ -6,7 +6,7 @@ import React from 'react';
 const Text = (props) => {
   const { explanation } = props
   //unpack props
-  console.log(props);
+  // console.log(props);
 
   //must return something. Usually JSX
   return (
