@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Description = () => {
+const Description = (props) => {
  return(
   <>
-    <div>Description</div>
+    <div>{props.theData.explanation}</div>
   </>
 
  ); 
