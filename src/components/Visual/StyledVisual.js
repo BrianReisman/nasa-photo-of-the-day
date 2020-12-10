@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const StyledVisual = styled.div`
   background: ${props => props.theme.backgroundColor};
   padding: 15px;
-  border: ${props => props.theme.border};
+  /* border: ${props => props.theme.border}; */
   margin: 0;
 `
 
