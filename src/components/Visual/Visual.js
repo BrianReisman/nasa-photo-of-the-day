@@ -1,9 +1,10 @@
 import React from "react";
+import StyledVisual from "./StyledVisual";
 
 const Visual = (props) => {
   let visualAsset = [];
   if (props.theData.media_type === "video") {
-    visualAsset =(
+    visualAsset = (
       <iframe
         title={props.theData.title}
         width="560"
@@ -15,10 +16,10 @@ const Visual = (props) => {
       />
     );
   } else {
-    visualAsset = (<img src={props.theData.url} alt='NASA of the day.'/>)
+    visualAsset = <img src={props.theData.url} alt="NASA of the day." />;
   }
 
-  return <>{visualAsset}</>;
+  return <StyledVisual>{visualAsset}</StyledVisual>;
 };
 
 export default Visual;
